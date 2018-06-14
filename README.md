@@ -36,7 +36,8 @@ Looks like our test is expecting to test a method called `#introduction`. Let's 
 ```ruby
 # lib/introduction.rb
 
-def introduction
+def introduction(name)
+puts('Hi my name is #{name).')
 end
 ```
 
